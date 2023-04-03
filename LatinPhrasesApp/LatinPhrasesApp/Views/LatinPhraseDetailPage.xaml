@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LatinPhrasesApp.Views.LatinPhraseDetailPage">
+    
+    
+    <StackLayout Padding="20">
+        <Label Text="{Binding LatinPhrase.Phrase}"
+               FontSize="Large"
+               FontAttributes="Bold"
+               HorizontalOptions="Center" />
+        <Label Text="{Binding LatinPhrase.Translation}"
+               FontSize="Medium"
+               HorizontalOptions="Center" />
+        <Label Text="{Binding LatinPhrase.Author}"
+               FontSize="Small"
+               HorizontalOptions="Center" />
+    </StackLayout>
+</ContentPage>

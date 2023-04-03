@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LatinPhrasesApp.Views.MenuPage"
+             Title="Menu">
+    <StackLayout>
+        <!-- Add your menu items here -->
+        <Button Text="Home" Clicked="OnHomeButtonClicked" />
+    </StackLayout>
+</ContentPage>
